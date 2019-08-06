@@ -1,21 +1,44 @@
-.button {
+button {
   width: 70px;
   height: 50px;
+  color: blue;
 }
-.screen {
-  outline-color: black;
-  width: 100%;
-  height: 50px;
-  margin: auto;
-  float: right;
+
+button.meta-button{
+  color:green;
 }
-.calculator {
+
+button.reset-button{
+  color:red;
+}
+
+button.operator{
+  color: purple;
+}
+
+button.equals{
+  color: yellowgreen;
+}
+#screen {
+  width: 375px;
+  position: relative;
+  height: 80px;
+  border: 1px solid black;
+
+}
+#calculator {
+  position: relative;
   display: block;
-  width: 20%;
-  height: 20%;
+  width: 39%;
+  height: 5%;
   margin: auto;
 }
 
 #calculator-buttons {
-  width: 100%;
+  width: 50%;
+  padding: 10px
+}
+p#value{
+  float: right;
+  font-size: 25px;
 }
